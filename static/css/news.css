@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/* public */
+.wrap {
+  width: 1230px;
+  margin: 0 auto;
+}
+/* end public */
+
+/* layout */
+#box{
+  padding: 140px 0 100px;
+  width: 100%;
+  background: #f7f7f7;
+}
+#news-list {
+  margin-bottom: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+#page {
+  height: 22px;
+  background-color: #f7f7f7;
+}
+/* end layout */
+
+
+/* news-list */
+#news-list li {
+  margin: 0 30px 30px 0;
+  width: 380px;
+  height: 348px;
+}
+.unit div {
+   overflow: hidden;
+}
+.unit figcaption {
+  padding: 20px 15px 7px;
+}
+.unit img {
+  width: 378px;
+  height: 186px;
+  transition: 0.5s;
+}
+.unit h3 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: black;
+}
+.unit time {
+  height: 27px;
+  line-height: 27px;
+  font-size: 12px;
+  color: #999;
+}
+.unit p {
+  margin-top: 10px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+  color: #666;
+}
+
+#news-list li:hover {
+  background: #fff;
+}
+.unit:hover img {
+  transform: scale(1.2,1.2);
+}
+.unit:hover h3,.unit:hover p {
+  color: #e70011;
+}
+
+/* end news-list */
+
+/* page */
+#page {
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  width: 1200px;
+  height: 100%;
+  justify-content: center;
+}
+.page,.pagem,.pagen {
+  margin-right: 18px;
+  height: 20px;
+  background: url('../images/support/icon.png') no-repeat;
+  cursor: default;
+}
+.page {
+  width: 6px;
+}
+.pagem {
+  width: 12px;
+}
+.pagen {
+  padding: 0 4px;
+  margin-right: 10px;
+  padding-bottom: 8px;
+  height: 14px;
+  line-height: 14px;
+  border-bottom: 2px solid #444;
+}
+.gofirst {
+  background-position: 0 -126px;
+}
+.goprev {
+  background-position: -30px -126px;
+}
+.num {
+  color: #4444;
+  padding-bottom: 6px;
+  background: none;
+  cursor: default;
+}
+.gonext {
+  margin-left: 10px;
+  background-position: -40px -126px;
+}
+.golast {
+  background-position: -15px -125px;
+}
+/* end page */
+

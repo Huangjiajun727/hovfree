@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+/* public */
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.line {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: #2b2b2b;
+  margin: 0 auto 20px;
+}
+header h3 {
+  height: 62px;
+  margin-bottom: 15px;
+  font-size: 42px;
+  line-height: 62px;
+  text-align: center;
+}
+header p,.bottom-main {
+  font-size: 14px;
+  color: #303030;
+  text-align: center;
+  line-height: 22px;
+}
+/* end public */
+
+/* layout */
+#top,#content,#bottom {
+  width: 100%;
+}
+
+#product-detail {
+  padding-top: 50px;
+}
+
+#top {
+  padding: 90px 0 60px;
+  background: #DCDDE1;
+}
+#content {
+  padding: 90px 0 100px;
+}
+#bottom {
+  width: 100%;
+  padding-top: 90px;
+  background: url('../../static/images/product/detail/bottom_bg.jpg') no-repeat center;
+  overflow: hidden;
+}
+/* end layout */
+
+/* top */
+#top header h2 {
+  margin-bottom: 27px;
+  height: 82px;
+  font-size: 82px;
+  color: #2b2b2b;
+  line-height: 82px;
+  text-align: center;
+}
+.img-box {
+  margin-top: 92px;
+  position: relative;
+  width: 1200px;
+}
+.img-box span {
+  display: inline-block;
+  position: absolute;
+  top: 179px;
+  width: 16px;
+  height: 42px;
+  background: url('../../static/images/product/icon.png') no-repeat left -145px;
+  cursor: pointer;
+}
+.btn-left {
+  left: 0;
+}
+.btn-right {
+  right: 0;
+  background-position: -20px -145px!important;
+}
+.img-list {
+  position: relative;
+  width: 810px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.img-list li {
+  position: absolute;
+}
+.img-list img {
+  margin: 0 auto;
+  max-width: 820px;
+  max-height: 400px;
+}
+.feature {
+  display: flex;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+.feature li {
+  position: relative;
+  display: block;
+  width: 380px;
+  margin-bottom: 25px;
+  padding: 0 6px 0 14px;
+  height: 16px;
+  font-size: 14px;
+  color: #303030;
+  line-height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dash {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  width: 14px;
+  height: 16px;
+  background: url('../../static/images/product/detail/dash.png') no-repeat left center;
+}
+
+/*Vue 过渡的类名*/
+
+/*在元素被插入时 v-enter 和 v-enter-active 同时生效的，前者在下一帧移除，
+后者在动画完成后移除。所以 v-enter-active 要写在前面。leave 也一样。*/
+.list-enter-to {
+  transition: all 1s ease;
+  transform: translateX(0);
+}
+
+.list-leave-active {
+  transition: all 1s ease;
+  transform: translateX(-100%);
+}
+
+.list-enter {
+  transform: translateX(100%);
+}
+
+.list-leave {
+  transform: translateX(0);
+}
+/*Vue结束*/
+
+/* end top */
+
+/* content */
+.con-tb {
+  border-top: 2px solid #383838;
+  border-bottom: 2px solid #383838;
+  margin-top: 70px;
+}
+.con-tb td {
+  line-height: 18px;
+  padding: 16px 14px;
+  width: 212px;
+  font-size: 12px;
+  color: #303030;
+  border-bottom: 1px solid #e1e1e1;
+}
+.non {
+  padding: 16px 0!important;
+  width: 20px!important;
+  border: none!important;
+}
+.con {
+  color: #999!important;
+  width: 302px!important;
+}
+/* end content */
+
+/* bottom */
+#bottom * {
+  color: #fff;
+}
+#bottom .line {
+  background: #fff;
+}
+.bottom-main {
+  width: 100%;
+  margin: 50px auto 90px;
+}
+
+/* end bottom */
+
+#pro-top {
+  width: 100%;
+  height: 60px;
+  background: url('../../static/images/product/detail/back_up.png') no-repeat center center #5a5a5a;
+  cursor: pointer;
+}

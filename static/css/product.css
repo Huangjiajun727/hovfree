@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/* public */
+.wrap {
+  width: 1903px;
+  margin: 0 auto;
+}
+/* end public */
+
+/* layout */
+#content,#page {
+  width: 100%;
+}
+
+#content {
+  padding: 100px 0 100px;
+  background-color: #f7f7f7;
+}
+#page {
+  height: 22px;
+  background-color: #f7f7f7;
+}
+/* end layout */
+
+/* content */
+.pd-list {
+  display: flex;
+  width: 1260px;
+  margin: 0 auto;
+ flex-direction: row;
+  flex-wrap: wrap;
+}
+.unit {
+  width: 358px;
+  height: 398px;
+  margin: 0 60px 60px 0;
+  border: 1px solid #d2d2d2;
+}
+.con{
+  width: 358px;
+}
+.con div {
+  width: 100%;
+  height: 278px;
+  overflow: hidden;
+  border-bottom: 1px solid #d2d2d2;
+  background-color: #ffffff;
+}
+.con img {
+  display: block;
+  width: 298px;
+  margin: 70px auto 0;
+  transition: all 0.3s;
+}
+.con figcaption {
+  padding: 20px 20px 0;
+  height: 99px;
+}
+.con figcaption h3 {
+  margin-bottom: 13px;
+  height: 23px;
+  font-size: 20px;
+  color: #000;
+  font-weight: bolder;
+  line-height: 23px;
+}
+.con figcaption p {
+  height: 40px;
+  font-size: 14px;
+  color: #666;
+  line-height: 20px;
+}
+.unit:hover .con img {
+  transform: scale(1.2,1.2);
+}
+.unit:hover .con figcaption {
+  background-color: #e70011;
+  color: #ffffff;
+}
+.unit:hover .con figcaption * {
+  color: #ffffff;
+}
+/* end content */
+
+
+/* page */
+#page {
+  text-align: center;
+  font-size: 14px;
+}
+#page .wrap {
+  display: flex;
+  width: 1200px;
+  height: 100%;
+  justify-content: center;
+}
+.page,.pagem,.pagen {
+  margin-right: 18px;
+  height: 20px;
+  background: url('../images/product/icon.png') no-repeat;
+  cursor: default;
+}
+.page {
+  width: 6px;
+}
+.pagem {
+  width: 12px;
+}
+.pagen {
+  padding: 0 4px;
+  margin-right: 10px;
+  padding-bottom: 8px;
+  height: 14px;
+  line-height: 14px;
+}
+.gofirst {
+  background-position: 0 -126px;
+}
+.goprev {
+  background-position: -30px -126px;
+}
+.num {
+  color: #999;
+  padding-bottom: 6px;
+  background: none;
+  cursor: pointer;
+}
+.gonext {
+  margin-left: 10px;
+  background-position: -40px -126px;
+}
+.golast {
+  background-position: -15px -125px;
+}
+.open {
+  background-position-y: -86px;
+  cursor: pointer;
+}
+.on {
+  color: #4444!important;
+  border-bottom: 2px solid #444!important;
+  padding-bottom: 6px;
+  background: none;
+  cursor: default;
+}
+
+.open:hover {
+  background-position-y: -106px;
+}
+.num:hover {
+  color: #e70011;
+  border-bottom: 2px solid #e70011;
+  transition: all 0.3s ease-out 0s;
+}
+/* end page */

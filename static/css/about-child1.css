@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+/* public */
+.wrap {
+  margin: 0 auto;
+  width: 1200px;
+}
+header {
+  text-align: center;
+}
+h2 {
+  height: 60px;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 15px;
+  color: #3b3b3b;
+}
+.line {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: #2b2b2b;
+  margin: 0 auto 20px;
+}
+header p {
+  font-size: 14px;
+  color: #303030;
+  text-align: center;
+  line-height: 22px;
+  text-indent: 0;
+}
+
+>>> p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  text-indent: 2em;
+  color: #303030;
+}
+>>> span {
+  font-size: 14px;
+  line-height: 22px;
+  color: #e70011;
+}
+>>> h4 {
+  height: 47px;
+  margin-bottom: 2px;
+  font-size: 36px;
+  line-height: 36px;
+  color: #fff;
+}
+>>> .redH {
+  color: #e70011;
+}
+>>> strong {
+  font-size: 24px;
+}
+>>> div {
+  font-size: 14px;
+  color: #fff;
+  line-height: 24px;
+}
+/* end public */
+
+/* layout */
+#top {
+  padding: 140px 0 75px;
+  width: 100%;
+  background: #D2E0EB;
+}
+#con {
+  width: 100%;
+  height: 770px;
+  background: url("../../static/images/about/business_bg.jpg") no-repeat;
+}
+#bottom {
+  padding: 90px 0 70px;
+}
+/* lend ayout */
+
+/* top */
+article {
+  margin: 50px 0 95px;
+}
+.show-list {
+  display: flex;
+  justify-content: flex-start;
+}
+.show-list li {
+  width: 25%;
+  text-align: center;
+}
+.show-list-con div {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 45px;
+  border-radius: 100%;
+  overflow: hidden;
+  background: rgba(255,255,255,0.8);
+}
+.show-list-con img {
+  margin: 43px auto 0;
+}
+.show-list-con span {
+  display: block;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3b3b3b;
+}
+/* end top */
+
+/* con_yin */
+.con_yin {
+  height: 100%;
+  position: relative;
+  background: rgba(0,0,0,0.7);
+  overflow: hidden;
+}
+.con_yin header {
+  padding-top: 286px;
+}
+.con_yin h2 {
+  color: #fff;
+}
+.con_yin .line {
+  background: #fff;
+}
+.con_yin p {
+  color: #fff;
+}
+.line-bgk {
+  position: relative;
+  width: 770px;
+  height: 587px;
+  margin: 183px auto 0;
+  background: url("../../static/images/about/busi_info_bg.png") no-repeat;
+}
+.circle {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  background: rgba(255,255,255,0.5);
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.circle-wrap {
+  margin-top: 66.5px;
+}
+.circle:nth-child(2) {
+  left: -113px;
+  top: 272px;
+}
+.circle:nth-child(3) {
+  left: -12px;
+  top: 5px;
+}
+.circle:nth-child(4) {
+  left: 270px;
+  top: -114px;
+}
+.circle:nth-child(4) .circle-wrap {
+  margin-top: 42.5px;
+}
+.circle:nth-child(5) {
+  right: -12px;
+  top: 5px;
+}
+.circle:nth-child(6) {
+  right: -113px;
+  top: 272px;
+}
+/* end con_yin */
+
+/* #bottom */
+
+.bottom-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 65px;
+  width: 1220px;
+}
+.bottom-list li {
+  padding-left: 14px;
+  width: 386px;
+  height: 45px;
+  line-height: 45px;
+  background: url("../../static/images/about/property_icon.png") no-repeat left center;
+  font-size: 14px;
+}
+.bottom-list a {
+  color: #303030;
+  display: block;
+}
+
+.bottom-list a:hover  {
+  color: #e70011;
+}
+/* end #bottom */
+

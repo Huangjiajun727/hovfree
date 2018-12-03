@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/* layout */
+#about {
+  background: #F7F7F7;
+  padding-top: 140px;
+}
+.wrap {
+  margin: 0 auto;
+  width: 1200px;
+}
+header {
+  text-align: center;
+}
+#contact-top {
+  width: 800px;
+  margin: 30px auto 0;
+  color: #666;
+}
+#contact-con {
+  width: 800px;
+  margin: 70px auto 0;
+  text-align: center;
+}
+#mark {
+  margin-top: 60px;
+  width: 100%;
+  height: 303px;
+  background: url('../../static/images/about/market_bg.jpg') no-repeat center top;
+  overflow: hidden;
+}
+/* end layout */
+
+/* header */
+h2 {
+  height: 60px;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 15px;
+  color: #3b3b3b;
+}
+.line {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: #2b2b2b;
+  margin: 0 auto 20px;
+}
+header p {
+  font-size: 14px;
+  color: #303030;
+  text-align: center;
+  line-height: 22px;
+  text-indent: 0;
+}
+/* end header */
+
+/* contact-top */
+table {
+  width: 100%;
+}
+td {
+  font-size: 16px;
+}
+.title {
+  padding: 15px 0 5px 7px;
+  height: 21px;
+}
+.must {
+  color: #e70011;
+}
+.contact_text {
+  padding: 0 9px;
+  width: 780px;
+  height: 48px;
+  border: 1px solid #e1e3e6;
+  background: #fff;
+  font-size: 16px;
+  color: #666;
+}
+textarea {
+  padding: 10px 9px;
+  margin: 0;
+  width: 778px;
+  height: 150px;
+  border: 1px solid #e1e3e6;
+  background: #fff;
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+  resize: none;
+}
+.none {
+  height: 30px;
+}
+.contactBtn {
+  width: 800px;
+  height: 50px;
+  background: #e70011;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+}
+/* end contact-top */
+
+/* contact-con */
+#contact-con h3 {
+  margin-bottom: 15px;
+  height: 43px;
+  line-height: 43px;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #333;
+}
+.txt > p {
+  line-height: 32px;
+  font-size: 18px;
+  color: #666;
+}
+img {
+  display: block;
+  margin: 15px auto 0;
+}
+/* end contact-con */
+
+/* mark */
+.mark-wrap {
+  display: flex;
+  justify-content: flex-start;
+  width: 1200px;
+  margin: 0 auto;
+}
+.left,.right {
+  padding-top: 90px;
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.mark-wrap h3 {
+  font-size: 26px;
+  height: 44px;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+.mark-wrap span {
+  font-size: 20px;
+}
+/* end mark */
+
+
+
