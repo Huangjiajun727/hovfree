@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* reset */
+body,h1,h2,h3,h4,h5,h6,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,span,i,ul,a,em,img,textarea,select{margin:0;padding:0;font-family:"微软雅黑";}
+*{padding:0; margin:0; list-style:none;font-family:"微软雅黑";}
+body,button,input,select,textarea {font-size:12px;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+label,input,select {vertical-align:middle;}
+address,cite,em {font-style:normal;}
+fieldset{cursor:pointer;}
+img{border:none;}
+ul,ol {list-style:none;}
+table {border-collapse:collapse; border-spacing:0;}
+sub {vertical-align:text-bottom;}
+sup {position:relative;top:-1px;left:2px;font:11px/normal tahoma;vertical-align:text-top;}
+small {font-size:12px;}
+legend {color:#333;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal;}
+*:focus { outline: none; }
+a{cursor:pointer;}
+input[type=submit],input[type=button]{cursor:pointer;}
+/* color */
+
+/* default color */
+a{text-decoration:none;}
+ul,li{padding:0; margin:0;}
+/* end: reset */
