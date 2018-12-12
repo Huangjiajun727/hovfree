@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/model/VueEvent.js"],"names":["vm","__webpack_require__","Vue"],"mappings":"oDAAA,IAEIA,EAAK,IAFTC,EAAA,QAEaC,GAEEF","file":"static/js/0.a56ca9febf890383ca18.js","sourcesContent":["import Vue from 'vue';\n\nvar vm = new Vue();\n\nexport default vm;\n\n\n\n// WEBPACK FOOTER //\n// ./src/model/VueEvent.js"],"sourceRoot":""}
